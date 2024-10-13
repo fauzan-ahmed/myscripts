@@ -8,6 +8,6 @@ remotes::install_github("mojaveazure/seurat-disk")
 library(loomR)
 library(SeuratDisk)
 #Read in RDS file
-seurat_object = readRDS(“Enter your own file path/file.rds)
+seurat_object = readRDS("Enter your own file path/file.rds")
 #Save new loom file
-as.loom(seurat_object, filename = “Enter “file path/file.loom”)
+as.loom(seurat_object, filename = "Enter file path/...loom")
